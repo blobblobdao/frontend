@@ -1,0 +1,150 @@
+.graph {
+  width: 100%;
+}
+.graphDiv {
+  /* height: 306px; */
+  background-color: #0e0e10;
+  border-radius: 12px;
+  width: 100%;
+}
+.unSelectedRange {
+  color: #76768a;
+}
+
+.card-dim-bg {
+  background: #0e0e10;
+  border-radius: 8px;
+}
+.balanceTxt {
+  font-family: "Poppins";
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.blobTxt {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+.blobTxtNumbers {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+.blobTxtNumbersBelow {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+.cardDetails {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+.claimBtn {
+  width: 204px;
+}
+.shortText {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  /* text-align: center; */
+}
+.stakeTextOptions {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.percentText {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.tableDiv {
+  background-color: #0e0e10;
+  border-radius: 12px;
+}
+.tableHeading {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.tableDataFirst {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.tableDataHeading {
+  font-family: "Poppins";
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.graphHeadingRight {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.graphHeadingLeft {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.inputContainer {
+  background-color: #121215;
+  height: 48px;
+  /* width: 386px; */
+  /* left: 32px; */
+  /* top: 52px; */
+  border-radius: 5px;
+  padding: 12px;
+}
+.inputField {
+  background-color: #121215;
+  height: 40px;
+  color: white;
+  width: 386px;
+  border-color: #121215;
+  /* padding: 8px; */
+}
+.inputField:focus {
+  outline: none;
+}

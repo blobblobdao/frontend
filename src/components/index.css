@@ -1,0 +1,246 @@
+.header-container {
+  border-bottom: 1px solid #38383b;
+}
+
+.header-link {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.button-container {
+  cursor: pointer;
+  padding: 5px 25px;
+  background: #cafc5f;
+  border: 0.899832px solid rgba(26, 41, 0, 0.32);
+  border-radius: 4px;
+  justify-content: center;
+}
+
+.button-text {
+  font-family: inter;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #020202;
+}
+
+.header-link {
+  font-family: "Poppins";
+
+  font-style: normal;
+  font-size: 14px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #cafc5f, #cafc5f 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-link:before {
+  content: "";
+  background: #cafc5f;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-link:hover {
+  background-position: 0;
+}
+
+.header-link:hover::before {
+  width: 100%;
+}
+.sidebar {
+  background-color: #0e0e10;
+  border-right-color: #ffffff12;
+  border-right-width: 1px;
+  width: 206px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.blob-logo {
+  width: 71px;
+  height: 32px;
+  left: 24px;
+  top: 24px;
+}
+.btn-primary {
+  border-color: #5a8dee !important;
+  background-color: #5a8dee !important;
+  color: #fff;
+}
+.shadow-md {
+  box-shadow: 0px 5px 10px rgba(90, 116, 148, 0.3);
+}
+.navbar {
+  border-radius: 5px;
+}
+
+.sidebarLeft {
+  width: 280px;
+  min-height: 100vh;
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
+  background-color: #1e1e1e;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  z-index: 1;
+  transition: 0.5s;
+}
+.sidebarLeft.active {
+  right: 0;
+}
+.sd-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.sidebarLeft-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+.sidebarLeft-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+.sd-body {
+  padding: 15px;
+  max-height: calc(100vh - 67px);
+  overflow-x: hidden;
+}
+.sd-body ul {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0;
+}
+.sd-body ul li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+.sd-body ul li .sd-link {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 16px;
+  color: #fff;
+  /* background-color: #e5e8ec; */
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.rewards-count {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: right;
+  letter-spacing: -0.03em;
+  background: linear-gradient(to right, #dbff8f, #cafc5f, white);
+  line-height: 40px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.rewards-text {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.stats-titles {
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0.03em;
+  color: #76768a;
+}
+.title {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+/* graph component */
+.table-container {
+  transition: height 0.5s;
+}
+
+.table-container.expanded table {
+  height: 400px;
+}
+.graph {
+  width: 100%;
+}
+
+.tableCustom {
+  height: 20px;
+}
+.graphHeadingRight {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.graphHeadingLeft {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.graphDiv {
+  height: 306px;
+  background-color: #0e0e10;
+  border-radius: 12px;
+}
+.graphDivLarge {
+  height: 750px;
+  background-color: #0e0e10;
+  border-radius: 12px;
+  transition: height 0.5s;
+}
+.graphDivLarge.expanded {
+  height: 950px;
+}
+.unSelectedRange {
+  color: #76768a;
+}
+.table-container {
+  transition: height 0.5s;
+}
+
+.table-container.expanded table {
+  height: 400px;
+}

@@ -1,0 +1,12 @@
+.sidebar {
+  background-color: #0e0e10;
+  border-right-color: #ffffff12;
+  border-right-width: 1px;
+  width: 180px;
+}
+.blob-logo {
+  width: 71px;
+  height: 32px;
+  left: 24px;
+  top: 24px;
+}

@@ -1,0 +1,11 @@
+.sidebar {
+  width: 206px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.mainBlock {
+  width: calc(100vw - 206px);
+  left: 206px;
+  position: relative;
+}

@@ -1,0 +1,65 @@
+.body {
+  min-width: fit-content;
+}
+.stats-values {
+  font-family: "Poppins";
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -0.03em;
+  color: #fcfcf9;
+}
+.stats-heading {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+.graph {
+  width: 100%;
+}
+
+.tableCustom {
+  height: 20px;
+}
+.graphHeadingRight {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.graphHeadingLeft {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.graphDiv {
+  height: 306px;
+  background-color: #0e0e10;
+  border-radius: 12px;
+}
+.graphDivLarge {
+  height: 672px;
+  background-color: #0e0e10;
+  border-radius: 12px;
+}
+.unSelectedRange {
+  color: #76768a;
+}
+.table-container {
+  transition: height 0.5s;
+}
+
+.table-container.expanded table {
+  height: 400px;
+}
